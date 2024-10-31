@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1650px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+/* header style */
+/* nav style  */
+nav.nav-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* logo style */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+span.text-logo {
+    font-size: 25px;
+}
+.logo-container img {
+    width: 30px;
+    margin-right: 6px;
+}
+span.logo-child-vpn {
+    font-weight: 600;
+}
+
+
+
+
+
+/* ul style */
+
+ul.nav-ul-container {
+    display: flex;
+    font-size: 20px;
+}
+
+ul.nav-ul-container a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    display: flex;
+    padding: 0px 45px;
+}
+
+
+
+/* sign in and sign up button style */
+button.btn-sign-in {
+    padding: 10px 20px;
+    border: none;
+    font-size: 19px;
+    color: black;
+    background: transparent;
+}
+button.btn-sign-up {
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 40px;
+    border: solid red;
+    font-size: 20px;
+    color: red;
+}
+/* nav style end */
+
+
