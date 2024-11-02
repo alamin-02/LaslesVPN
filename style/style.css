@@ -11,6 +11,7 @@ body {
 }
 
 /* sheared style */
+
 .descriptions {
     color: #4F5665;
 }
@@ -90,15 +91,15 @@ button.btn-sign-up {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .header-container {
-    max-width: 580px;
+    max-width: 610px;
 }
 
 h2.header-container-header {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 span.header-container-header-child {
@@ -106,8 +107,40 @@ span.header-container-header-child {
 }
 
 .header-container img {
-    width: 580px;
+    width: 640px;
 }
+
 p.header-container-description.descriptions {
     margin-top: 20px;
+}
+
+
+/* main style  */
+
+
+
+/* static style  */
+.static-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.static-item {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+img.static-image-icon {
+    width: 42px;
+}
+
+h2.static-value {
+    font-weight: 900;
+}
+
+p.static-label {
+    color: #4F5665;
 }
