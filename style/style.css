@@ -144,3 +144,43 @@ h2.static-value {
 p.static-label {
     color: #4F5665;
 }
+
+
+/* featured style  */
+.feature-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature {
+    width: 500px;
+}
+img.illustration-image {
+    width: 640px;
+}
+h2.feature-header {
+    font-size: 42px;
+}
+p.feature-description{
+    color: #4F5665;
+    margin: 20px 0;
+    
+}
+p.feature-item-description{
+    color: #4F5665;
+    
+}
+ul.feature-item {
+    list-style: none;
+}
+li.feature-item-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+img.feature-right-img {
+    width: 20px;
+}
+
+/* featured style end */
