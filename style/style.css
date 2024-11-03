@@ -12,7 +12,12 @@ body {
 
 /* sheared style */
 
-.descriptions {
+.descriptions,
+p.feature-item-description,
+p.subtitle.description,
+p.feature-description,
+p.plan-features-descriptions,
+p.static-label {
     color: #4F5665;
 }
 
@@ -141,10 +146,6 @@ h2.static-value {
     font-weight: 900;
 }
 
-p.static-label {
-    color: #4F5665;
-}
-
 
 /* featured style  */
 .feature-container {
@@ -153,34 +154,87 @@ p.static-label {
     align-items: center;
     justify-content: space-between;
 }
+
 .feature {
     width: 500px;
 }
+
 img.illustration-image {
     width: 640px;
 }
+
 h2.feature-header {
     font-size: 42px;
 }
-p.feature-description{
-    color: #4F5665;
-    margin: 20px 0;
-    
-}
-p.feature-item-description{
-    color: #4F5665;
-    
-}
+
 ul.feature-item {
     list-style: none;
 }
+
 li.feature-item-list {
     display: flex;
     gap: 10px;
     margin-top: 15px;
 }
+
 img.feature-right-img {
     width: 20px;
 }
 
 /* featured style end */
+
+/* section style  */
+.sections-container-parent {
+    text-align: center;
+    width: 540px;
+    margin: 100px auto;
+}
+
+h2.title.section-heading {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+
+/* plan card style  */
+.plan-card-container {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plan-card {
+
+    margin: 0 auto;
+}
+
+img.card-icon {
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+h2.card-title {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+ul.plan-item {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+li.plan-features {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 14px;
+}
+
+img.plan-features-icon {
+    width: 20px;
+}
+.plan-card {
+    border-radius: 43px;
+    border: solid gray 3px;
+    padding: 100px 80px;
+}
