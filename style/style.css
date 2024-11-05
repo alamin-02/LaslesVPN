@@ -17,7 +17,7 @@ p.feature-item-description,
 p.subtitle.description,
 p.feature-description,
 p.plan-features-descriptions,
-p.static-label, 
+p.static-label,
 span.date-time-on-cart {
     color: #4F5665;
 }
@@ -230,6 +230,7 @@ li.plan-features {
 img.plan-features-icon {
     width: 20px;
 }
+
 .plan-card {
     margin: 0 auto;
     border-radius: 20px;
@@ -237,9 +238,11 @@ img.plan-features-icon {
     padding: 50px 80px;
     margin-bottom: 50px;
 }
+
 span.plan-price {
     font-weight: 700;
 }
+
 button.cart-selector-button {
     padding: 12px 32px;
     font-weight: 400;
@@ -248,18 +251,20 @@ button.cart-selector-button {
     border-radius: 30px;
     color: red;
     margin-top: 10px;
-    
+
 }
-button.cart-selector-button:focus{
+
+button.cart-selector-button:focus {
     background: red;
     color: white;
 }
+
 div#price-button-container-parent-1 {
     position: relative;
     top: 80px;
 }
+
 div#price-button-container-parent-2 {
     position: relative;
     top: 40px;
 }
-
