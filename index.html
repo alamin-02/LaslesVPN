@@ -133,7 +133,7 @@
         <!-- section code end -->
         <!-- plan code  -->
         <div class="plan-card-container">
-            <div class="plan-card">
+            <div class="plan-card" id="cart-1">
                 <img src="./img/Free.png" alt="" class="card-icon">
                 <h2 class="card-title">Free Plan</h2>
                 <ul class="plan-item">
@@ -154,9 +154,12 @@
                         <p class="plan-features-descriptions">Works on All Devices</p>
                     </li>
                 </ul>
-                <span class="plan-price"></span>
+                <div class="price-button-container-parent" id="price-button-container-parent-1">
+                    <span class="plan-price">Free <span class="date-time-on-cart">/ mo</span></span><br>
+                    <button class="cart-selector-button" type="button" id="cart-selector-button-1">Select</button>
+                </div>
             </div>
-            <div class="plan-card">
+            <div class="plan-card" id="cart-2">
                 <img src="./img/plan-2.png" alt="" class="card-icon">
                 <h2 class="card-title">Standard Plan</h2>
                 <ul class="plan-item">
@@ -181,8 +184,12 @@
                         <p class="plan-features-descriptions">Connect Anyware</p>
                     </li>
                 </ul>
+                <div class="price-button-container-parent" id="price-button-container-parent-2">
+                    <span class="plan-price">$9 <span class="date-time-on-cart">/ mo</span></span><br>
+                    <button class="cart-selector-button" type="button" id="cart-selector-button-2">Select</button>
+                </div>
             </div>
-            <div class="plan-card">
+            <div class="plan-card" id="cart-3">
                 <img src="./img/Premium.png" alt="" class="card-icon">
                 <h2 class="card-title">Premium Plan</h2>
                 <ul class="plan-item">
@@ -211,6 +218,10 @@
                         <p class="plan-features-descriptions">Get New Features</p>
                     </li>
                 </ul>
+                <div class="price-button-container-parent" id="price-button-container-parent-3">
+                    <span class="plan-price">$12 <span class="date-time-on-cart">/ mo</span></span><br>
+                    <button class="cart-selector-button" type="button" id="cart-selector-button-3">Select</button>
+                </div>
             </div>
         </div>
     </main>
