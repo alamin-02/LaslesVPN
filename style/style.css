@@ -263,6 +263,7 @@ button.cart-selector-button:focus {
 div#price-button-container-parent-1 {
     position: relative;
     top: 80px;
+
 }
 
 div#price-button-container-parent-2 {
@@ -279,16 +280,43 @@ div#global-net h2 {
     margin: 0 auto;
     margin-bottom: 10px;
 }
+
 span.global-descripts {
     font-weight: 800;
     margin-top: 10px;
 }
+
 /* global style end */
 /* map style sheet */
 .map-container {
     text-align: center;
 }
+
 img.map-image {
     width: 100%;
     /* margin-top: 100px; */
+}
+
+
+/* socle style  */
+.brand-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin-top: 50px;
+}
+
+img.brand-icon {
+    width: 160px;
+    filter: grayscale(1);
+    opacity: 40%;
+    background: transparent;
+}
+
+/* socle style end */
+/* Trusted  style  */
+h2.title.section-heading {
+    font-size: 38px;
+    margin-bottom: 20px;
 }
