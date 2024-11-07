@@ -36,10 +36,20 @@ nav.nav-container {
 .logo-container {
     display: flex;
     align-items: center;
+    color: black;
+
 }
 
+.logo-container>a {
+    text-decoration: none;
+}
+.logo-container > a:hover {
+    text-decoration: underline 3px solid black;
+}
 span.text-logo {
     font-size: 25px;
+    color: black;
+
 }
 
 .logo-container img {
@@ -49,6 +59,7 @@ span.text-logo {
 
 span.logo-child-vpn {
     font-weight: 600;
+
 }
 
 
@@ -234,7 +245,7 @@ img.plan-features-icon {
 .plan-card {
     margin: 0 auto;
     border-radius: 20px;
-    border: solid red 3px;
+    border: solid gray 3px;
     padding: 50px 80px;
     margin-bottom: 50px;
 }
@@ -254,10 +265,21 @@ button.cart-selector-button {
     background-color: transparent;
 
 }
+button.cart-selector-button:hover{
+    background-color: green;
+    color: white;
+    border: none;
+    
+
+}
+.plan-card:has(.cart-selector-button:focus){
+    border: solid 4px red;
+}
 
 button.cart-selector-button:focus {
     background: red;
     color: white;
+    
 }
 
 div#price-button-container-parent-1 {
