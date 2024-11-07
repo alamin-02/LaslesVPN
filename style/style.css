@@ -316,7 +316,6 @@ img.brand-icon {
 
 /* socle style end */
 /* Trusted  style  */
-h2.title.section-heading {
-    font-size: 38px;
-    margin-bottom: 20px;
+div#trast-container-parent>h2 {
+    font-size: 42px;
 }
