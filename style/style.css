@@ -18,7 +18,9 @@ p.subtitle.description,
 p.feature-description,
 p.plan-features-descriptions,
 p.static-label,
-span.date-time-on-cart {
+span.date-time-on-cart,
+p.reviewer-location,
+p.review-description {
     color: #4F5665;
 }
 
@@ -43,9 +45,11 @@ nav.nav-container {
 .logo-container>a {
     text-decoration: none;
 }
-.logo-container > a:hover {
+
+.logo-container>a:hover {
     text-decoration: underline 3px solid black;
 }
+
 span.text-logo {
     font-size: 25px;
     color: black;
@@ -164,7 +168,8 @@ h2.static-value {
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 100px;
 }
 
 .feature {
@@ -265,21 +270,23 @@ button.cart-selector-button {
     background-color: transparent;
 
 }
-button.cart-selector-button:hover{
+
+button.cart-selector-button:hover {
     background-color: green;
     color: white;
     border: none;
-    
+
 
 }
-.plan-card:has(.cart-selector-button:focus){
+
+.plan-card:has(.cart-selector-button:focus) {
     border: solid 4px red;
 }
 
 button.cart-selector-button:focus {
     background: red;
     color: white;
-    
+
 }
 
 div#price-button-container-parent-1 {
@@ -341,3 +348,67 @@ img.brand-icon {
 div#trast-container-parent>h2 {
     font-size: 42px;
 }
+
+/* review style  */
+/* left slide animation */
+@keyframes slide-left{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.review-container {
+    display: flex;
+    width: 500px;
+    gap: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.review-card {
+    min-width: 450px;
+    border: solid gray 5px;
+    border-radius: 10px;
+    animation: slide-left 30s linear infinite; 
+}
+
+img.reviewer-photo {
+    width: 85px;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.review-card-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+span.review-child:last-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+span.review-child a {
+    text-decoration: none;
+    color: black;
+}
+
+img.review-star {
+    width: 20px;
+}
+
+p.review-description {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
