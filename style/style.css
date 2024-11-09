@@ -356,7 +356,7 @@ div#trast-container-parent>h2 {
         transform: translateX(100%);
     }
     100%{
-        transform: translateX(-100%);
+        transform: translateX(-1300%);
     }
 }
 .review-container {
@@ -375,7 +375,8 @@ div#trast-container-parent>h2 {
     min-width: 450px;
     border: solid gray 5px;
     border-radius: 10px;
-    animation: slide-left 30s linear infinite; 
+    height: 280px;
+    animation: slide-left 60s linear infinite; 
 }
 
 img.reviewer-photo {
