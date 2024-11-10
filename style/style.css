@@ -170,6 +170,7 @@ h2.static-value {
     align-items: center;
     justify-content: space-around;
     gap: 100px;
+    background: linear-gradient(to top, transparent, #ebf6ff);
 }
 
 .feature {
@@ -218,6 +219,7 @@ h2.title.section-heading {
     display: flex;
     margin: 0 auto;
     text-align: center;
+    background: linear-gradient(265deg, transparent, #e0f7ff);
 }
 
 
