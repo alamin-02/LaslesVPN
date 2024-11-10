@@ -351,14 +351,16 @@ div#trast-container-parent>h2 {
 
 /* review style  */
 /* left slide animation */
-@keyframes slide-left{
-    0%{
+@keyframes slide-left {
+    0% {
         transform: translateX(100%);
     }
-    100%{
+
+    100% {
         transform: translateX(-1300%);
     }
 }
+
 .review-container {
     display: flex;
     width: 500px;
@@ -369,9 +371,11 @@ div#trast-container-parent>h2 {
     padding: 0;
     overflow: hidden;
     margin-bottom: 50px;
+    /* transition: transform 0.5s ease-in-out; */
 }
 
 .review-card {
+
     min-width: 450px;
     border: solid gray 5px;
     border-radius: 10px;
@@ -413,3 +417,39 @@ p.review-description {
     font-size: 17px;
 }
 
+/* review button style */
+/* .review-btn-container {
+    text-align: right;
+}
+
+button.review-btn {
+    border: none;
+    background: transparent;
+}
+
+img.review-btn-img {
+    width: 50px;
+    background: black;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.left-label .review-btn-img {
+    transform: scaleX(-1);
+} */
+
+/* .lest-slider-btn:checked~.review-container {
+    transform: translateX(100%);
+}
+
+.right-slider-btn:checked~.review-container {
+    transform: translateX(-100%);
+} */
+/* input[type="radio"] {
+    display: none;
+}
+.left-label, .right-label
+ { cursor: pointer; }
+ .review-container:has(.lest-slider-btn:focus){
+    transform: translateX(-100%);
+ } */
