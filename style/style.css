@@ -520,4 +520,5 @@ h2.subscription-header {
 /* footer style */
 footer{
     margin-top: 200px;
+    background: linear-gradient(to top, transparent, #ebf6ff);
 }
