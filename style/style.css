@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     max-width: 1400px;
     margin: 0 auto;
@@ -11,7 +13,24 @@ body {
 }
 
 /* sheared style */
-
+button.primary-btn {
+    background: red;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    filter: drop-shadow(1px 8px 5px gray);
+}
+button.primary-btn:hover{
+    background-color: green;
+    
+}
+button.primary-btn:active {
+    padding: 18px;
+    font-size: 18px;
+}
 .descriptions,
 p.feature-item-description,
 p.subtitle.description,
@@ -20,7 +39,8 @@ p.plan-features-descriptions,
 p.static-label,
 span.date-time-on-cart,
 p.reviewer-location,
-p.review-description {
+p.review-description,
+p.subscription-description {
     color: #4F5665;
 }
 
@@ -104,7 +124,18 @@ button.btn-sign-up {
     font-size: 20px;
     color: red;
 }
+button.btn-sign-up:hover {
+    background-color: green;
+    color: white;
+    border: none;
+    border: solid green 3px;
+}
 
+button.btn-sign-up:focus {
+    background: red;
+    color: white;
+
+}
 /* nav style end */
 
 /* header container style  */
@@ -121,6 +152,7 @@ button.btn-sign-up {
 
 h2.header-container-header {
     font-size: 60px;
+    margin-bottom: 20px;
 }
 
 span.header-container-header-child {
@@ -133,9 +165,13 @@ span.header-container-header-child {
 
 p.header-container-description.descriptions {
     margin-top: 20px;
+    margin-bottom: 30px;
+    
 }
 
-
+.header-btn-container button {
+    position: absolute;
+}
 /* main style  */
 
 
@@ -219,7 +255,8 @@ h2.title.section-heading {
     display: flex;
     margin: 0 auto;
     text-align: center;
-    background: linear-gradient(265deg, transparent, #e0f7ff);
+    background: linear-gradient(21deg, #c6f0ff, #e0f7ff, #ff1e1e00, transparent);
+    border-radius: 10px;
 }
 
 
@@ -277,8 +314,6 @@ button.cart-selector-button:hover {
     background-color: green;
     color: white;
     border: none;
-
-
 }
 
 .plan-card:has(.cart-selector-button:focus) {
@@ -372,7 +407,7 @@ div#trast-container-parent>h2 {
     width: 100%;
     padding: 0;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     /* transition: transform 0.5s ease-in-out; */
 }
 
@@ -382,7 +417,7 @@ div#trast-container-parent>h2 {
     border: solid gray 5px;
     border-radius: 10px;
     height: 280px;
-    animation: slide-left 60s linear infinite; 
+    animation: slide-left 100s linear infinite;
 }
 
 img.reviewer-photo {
@@ -455,3 +490,34 @@ img.review-btn-img {
  .review-container:has(.lest-slider-btn:focus){
     transform: translateX(-100%);
  } */
+
+/* subscriptions style */
+.subscription-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.subscription-container {
+    max-width: 590px;
+    position: absolute;
+    left: 400px;
+}
+
+h2.subscription-header {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.subscription-btn {
+    /* right: 0px; */
+    position: absolute;
+    right: 30pc;
+}
+/* .subscription code end  */
+/* footer style */
+footer{
+    margin-top: 200px;
+}
