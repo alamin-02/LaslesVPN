@@ -63,7 +63,8 @@ p.static-label,
 span.date-time-on-cart,
 p.reviewer-location,
 p.review-description,
-p.subscription-description {
+p.subscription-description,
+.copy-right-simble {
     color: #4F5665;
 }
 
@@ -549,5 +550,54 @@ h2.subscription-header {
 footer {
     margin-top: 200px;
     background: linear-gradient(to top, transparent, #ebf6ff);
+}
+.footer-container {
+    margin: 0 auto;
+    display: flex;
     padding: 100px;
+    max-width: 1291px;
+    /* padding: 100px 300px; */
+}
+.footer-section {
+    max-width: 400px;
+}
+
+.logo-container.footer-logo {
+    margin-bottom: 20px;
+}
+
+p.subtitle.description.footer-descriptions {
+    margin-bottom: 20px;
+}
+
+ul.footer-socale-icon {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+img.footer-socale-icon-img {
+    background: red;
+    border-radius: 50px;
+    filter: drop-shadow(2px 4px 6px gray);
+    /* border: 2px solid white; */
+    width: 40px;
+    margin-bottom: 20px;
+}
+.footer-section.footer-column-container{
+    display: flex;
+}
+.footer-column {
+    min-width: 150px;
+}
+h4.footer-column-header {
+    margin: 10px 0px;
+}
+.footer-column>a {
+    text-decoration: none;
+    color: black;
+    /* margin: 17px 0px !important; */
+}
+p.footer-column-child {
+    margin: 12px 0;
 }
