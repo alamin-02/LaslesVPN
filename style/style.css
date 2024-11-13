@@ -503,7 +503,7 @@ img.review-btn-img {
 .subscription-container {
     max-width: 590px;
     position: absolute;
-    left: 400px;
+    left: 350px;
 }
 
 h2.subscription-header {
@@ -514,7 +514,7 @@ h2.subscription-header {
 .subscription-btn {
     /* right: 0px; */
     position: absolute;
-    right: 30pc;
+    right: 345px;
 }
 /* .subscription code end  */
 /* footer style */
