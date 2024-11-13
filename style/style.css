@@ -23,7 +23,7 @@ div#global-net,
 .review-container,
 .subscription-section,
 .footer-section,
-.static-container, .subscription-section {
+.static-container {
     margin: 0 auto;
     padding: 0 100px;
     max-width: 1300px;
@@ -341,7 +341,7 @@ button.cart-selector-button {
 button.cart-selector-button:hover {
     background-color: green;
     color: white;
-    border: none;
+    border: solid 2px green;
 }
 
 .plan-card:has(.cart-selector-button:focus) {
@@ -526,11 +526,12 @@ img.review-btn-img {
     align-items: center;
     margin-bottom: 50px;
     margin-top: 100px;
+    max-width: 1000px;
 }
 
 .subscription-container {
-    padding: 0 100px;
-    max-width: 590px;
+    /* padding: 0 100px; */
+    max-width: 430px;
     /* position: absolute; */
     /* left: 400px; */
 }
