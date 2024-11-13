@@ -1,16 +1,34 @@
 * {
     margin: 0;
     padding: 0;
-}
-html{
-    scroll-behavior: smooth;
-}
-body {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 50px;
     font-family: "Inter", sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header,
+.feature-container,
+div#plan-card-container,
+div#global-net,
+.sections-container-parent,
+.map-container,
+.brand-icon-container,
+.review-container,
+.subscription-section,
+.footer-section,
+.static-container, .subscription-section {
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1300px;
+}
+
 
 /* sheared style */
 button.primary-btn {
@@ -22,15 +40,20 @@ button.primary-btn {
     font-size: 20px;
     font-weight: 700;
     filter: drop-shadow(1px 8px 5px gray);
+    transition: transform 0.2s ease;
 }
-button.primary-btn:hover{
+
+button.primary-btn:hover {
     background-color: green;
-    
+
 }
+
 button.primary-btn:active {
-    padding: 18px;
-    font-size: 18px;
+    /* padding: 18px; */
+    /* font-size: 18px; */
+    transform: scale(0.95);
 }
+
 .descriptions,
 p.feature-item-description,
 p.subtitle.description,
@@ -124,6 +147,7 @@ button.btn-sign-up {
     font-size: 20px;
     color: red;
 }
+
 button.btn-sign-up:hover {
     background-color: green;
     color: white;
@@ -136,6 +160,7 @@ button.btn-sign-up:focus {
     color: white;
 
 }
+
 /* nav style end */
 
 /* header container style  */
@@ -166,12 +191,13 @@ span.header-container-header-child {
 p.header-container-description.descriptions {
     margin-top: 20px;
     margin-bottom: 30px;
-    
+
 }
 
 .header-btn-container button {
     position: absolute;
 }
+
 /* main style  */
 
 
@@ -206,7 +232,7 @@ h2.static-value {
     align-items: center;
     justify-content: space-around;
     gap: 100px;
-    background: linear-gradient(to top, transparent, #ebf6ff);
+    background: linear-gradient(359deg, transparent, transparent, transparent, transparent, transparent, #ebf6ff);
 }
 
 .feature {
@@ -241,7 +267,8 @@ img.feature-right-img {
 .sections-container-parent {
     text-align: center;
     width: 540px;
-    margin: 100px auto;
+    margin: 100px auto !important;
+
 }
 
 h2.title.section-heading {
@@ -257,6 +284,7 @@ h2.title.section-heading {
     text-align: center;
     background: linear-gradient(21deg, #c6f0ff, #e0f7ff, #ff1e1e00, transparent);
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 
@@ -494,16 +522,17 @@ img.review-btn-img {
 /* subscriptions style */
 .subscription-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 50px;
     margin-top: 100px;
 }
 
 .subscription-container {
+    padding: 0 100px;
     max-width: 590px;
-    position: absolute;
-    left: 400px;
+    /* position: absolute; */
+    /* left: 400px; */
 }
 
 h2.subscription-header {
@@ -511,14 +540,17 @@ h2.subscription-header {
     font-weight: 800;
     margin-bottom: 20px;
 }
+
 .subscription-btn {
     /* right: 0px; */
-    position: absolute;
-    right: 30pc;
+    /* position: absolute; */
+    right: 30px;
 }
+
 /* .subscription code end  */
 /* footer style */
-footer{
+footer {
     margin-top: 200px;
     background: linear-gradient(to top, transparent, #ebf6ff);
+    padding: 100px;
 }
